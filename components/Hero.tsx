@@ -43,9 +43,9 @@ const Hero = () => {
             Hi! I&apos;m Balkishan, a Full Stack Developer based in India.
           </p>
 
-          <Link href="#about">
+          <Link href="#Projects">
             <MagicButton
-              title="Show my work"
+              title="See my work"
               icon={<FaLocationArrow />}
               position="right"
             />
