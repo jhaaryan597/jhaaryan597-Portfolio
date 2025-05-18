@@ -8,6 +8,46 @@ export const navItems = [
   {name: "Contact", link:"#Contact"}
 ];
 
+export const techStack = [
+	{ svg: "/icons/Express.svg" },
+	{ svg: "/icons/Node.js.svg" },
+	{ svg: "/icons/Tailwind CSS.svg" },
+	{ svg: "/icons/MongoDB.svg" },
+	{ svg: "/icons/Nodemon.svg" },
+	{ svg: "/icons/Three.js.svg" },
+	{ svg: "/icons/PostgresSQL.svg" },
+	{ svg: "/icons/CSS3.svg" },
+	{ svg: "/icons/JavaScript.svg " },
+	{ svg: "/icons/Next.js.svg" },
+	{ svg: "/icons/React.svg" },
+	{ svg: "/icons/HTML5.svg" },
+];
+export const languagesAndTools = [
+	{ svg: "/icons/Material UI.svg" },
+	{ svg: "/icons/Bootstrap.svg" },
+	{ svg: "/icons/Git.svg" },
+	{ svg: "/icons/Mongoose.js.svg" },
+	{ svg: "/icons/jQuery.svg" },
+	{ svg: "/icons/Markdown.svg" },
+	{ svg: "/icons/NPM.svg" },
+	{ svg: "/icons/MySQL.svg" },
+];
+export const frameWorks = [
+	{ svg: "/icons/C.svg" },
+	{ svg: "/icons/C++.svg" },
+	{ svg: "/icons/Java.svg" },
+	{ svg: "/icons/Python.svg" },
+	{ svg: "/icons/Xcode.svg" },
+	{ svg: "/icons/VS code.svg" },
+	{ svg: "/icons/Postman.svg" },
+	{ svg: "/icons/Canva.svg" },
+	{ svg: "/icons/Adobe Photoshop.svg" },
+	{ svg: "/icons/ngrok.svg" },
+	{ svg: "/icons/DialogFlow.svg" },
+	{ svg: "/icons/FastAPI.svg" },
+];
+
+
 export const workExperience = [
   {
     id: 1,
@@ -69,7 +109,8 @@ export const liveLink = [
   },
   {
     id:2,
-    link:"https://edu-nexus-flame.vercel.app/",
+    
+    link:"https://edunexus-eight.vercel.app/"
   },
   {
     id:3,

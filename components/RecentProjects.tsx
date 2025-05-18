@@ -73,7 +73,7 @@ const GridLayout: React.FC = () => {
       title: "EduNexus- EdTech Platform",
       description: "Engineered a highly scalable EdTech platform...",
       imageSrc: "/Edunexus.png",
-      link: "https://edu-nexus-flame.vercel.app/",
+      link: "https://edunexus-eight.vercel.app/",
       isGitHub: false,
       icons: [
         <div className="text-blue-400 font-bold text-xs sm:text-sm" key="react">⚛️</div>,

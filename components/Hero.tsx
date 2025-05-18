@@ -23,7 +23,7 @@ const Hero = () => {
        absolute top-0 left-0 flex items-center justify-center"
       >
         <div
-          // chnage the bg to bg-black-100, so it matches the bg color and will blend in
+          
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -31,9 +31,10 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
-          </p>
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 md:max-w-[95%]">
+						{/* Dynamic Web Magic with Next.js */}
+						Code Architect | Algorithmic Storyteller | Digital Innovator
+					</p>
           <TextGenerateEffect
             words="Transforming Web Visions into Interactive Reality"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
