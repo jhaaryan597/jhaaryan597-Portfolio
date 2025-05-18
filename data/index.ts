@@ -4,7 +4,6 @@ export const navItems = [
   {name: "Publications", link:"#Publication"},
   {name: "Projects", link:"#Projects"},
   {name: "Achievements", link:"#Achievements"},
-  {name: "Skills", link:"#Skills"},
   {name: "Contact", link:"#Contact"}
 ];
 
@@ -14,12 +13,13 @@ export const techStack = [
 	{ svg: "/icons/Tailwind CSS.svg" },
 	{ svg: "/icons/MongoDB.svg" },
 	{ svg: "/icons/Nodemon.svg" },
-	{ svg: "/icons/Three.js.svg" },
-	{ svg: "/icons/PostgresSQL.svg" },
+	// { svg: "/icons/Three.js.svg" },
+	// { svg: "/icons/PostgresSQL.svg" },
 	{ svg: "/icons/CSS3.svg" },
 	{ svg: "/icons/JavaScript.svg " },
 	{ svg: "/icons/Next.js.svg" },
 	{ svg: "/icons/React.svg" },
+  { svg: "/icons/django.svg" },
 	{ svg: "/icons/HTML5.svg" },
 ];
 export const languagesAndTools = [
@@ -42,8 +42,6 @@ export const frameWorks = [
 	{ svg: "/icons/Postman.svg" },
 	{ svg: "/icons/Canva.svg" },
 	{ svg: "/icons/Adobe Photoshop.svg" },
-	{ svg: "/icons/ngrok.svg" },
-	{ svg: "/icons/DialogFlow.svg" },
 	{ svg: "/icons/FastAPI.svg" },
 ];
 
