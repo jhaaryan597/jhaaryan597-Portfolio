@@ -49,7 +49,7 @@ export const frameWorks = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Software Engineer Intern",
     desc: "Developed a scalable tourism website for Keibul Lamjao National Park, optimized UI performance with a projected 40% booking efficiency gain.",
     className: "md:col-span-2",
     thumbnail: "/codexp_logo.jpeg",
