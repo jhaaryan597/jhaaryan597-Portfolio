@@ -40,7 +40,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I'm Aryan Jha, a Software Developer based in India.
+            Hi! I&apos;m Aryan Jha, a Software Developer based in India.
           </p>
 
           <Link href="#Projects">
