@@ -55,57 +55,69 @@ const Card: React.FC<CardProps> = ({ title, description, imageSrc, icons, link, 
   );
 };
 
+// Define the card type based on CardProps (excluding the optional isGitHub)
+type CardType = {
+  title: string;
+  description: string;
+  imageSrc: string;
+  icons: React.ReactNode[];
+  link: string;
+  isGitHub: boolean;
+};
+
 const GridLayout: React.FC = () => {
-  const cards = [
-    {
-      title: "Metro Routing & Scheduling System",
-      description: "Boosted metro navigation with Dijkstra & A⋆ algorithm...",
-      imageSrc: "/metromap.png",
-      link: "https://github.com/kishan-25/Metro-Routing-and-Scheduling-System",
-      isGitHub: true,
-      icons: [
-        <div className="text-blue-500 font-bold text-xs sm:text-sm" key="cpp">C++</div>,
-        <Terminal className="text-gray-300 w-5 h-5 sm:w-6 sm:h-6" key="tools" />,
-        <Code className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" key="code" />,
-      ]
-    },
-    {
-      title: "EduNexus- EdTech Platform",
-      description: "Engineered a highly scalable EdTech platform...",
-      imageSrc: "/Edunexus.png",
-      link: "https://edunexus-eight.vercel.app/",
-      isGitHub: false,
-      icons: [
-        <div className="text-blue-400 font-bold text-xs sm:text-sm" key="react">⚛️</div>,
-        <div className="text-green-500 font-bold text-xs sm:text-sm" key="mongodb">M</div>,
-        <div className="text-yellow-500 font-bold text-xs sm:text-sm" key="express">Ex</div>,
-        <div className="text-purple-500 font-bold text-xs sm:text-sm" key="redux">Rx</div>,
-        <Code className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" key="code" />
-      ]
-    },
-    {
-      title: "NavSarjan- Research Management Platform",
-      description: "Developed for 200+ institutions in Gujarat...",
-      imageSrc: "/Navsarjan.png",
-      link: "https://github.com/kishan-25/NavSarjan",
-      isGitHub: true,
-      icons: [
-        <div className="text-blue-400 font-bold text-xs sm:text-sm" key="react">⚛️</div>,
-        <div className="text-green-500 font-bold text-xs sm:text-sm" key="mongodb">M</div>,
-        <div className="text-yellow-500 font-bold text-xs sm:text-sm" key="express">Ex</div>,
-        <div className="text-cyan-400 font-bold text-xs sm:text-sm" key="socketio">S.IO</div>
-      ]
-    }
+  const cards: CardType[] = [
+    // {
+    //   title: "Metro Routing & Scheduling System",
+    //   description: "Boosted metro navigation with Dijkstra & A⋆ algorithm...",
+    //   imageSrc: "/metromap.png",
+    //   link: "https://github.com/jhaaryan597/Metro-Routing-and-Scheduling-System",
+    //   isGitHub: true,
+    //   icons: [
+    //     <div className="text-blue-500 font-bold text-xs sm:text-sm" key="cpp">C++</div>,
+    //     <Terminal className="text-gray-300 w-5 h-5 sm:w-6 sm:h-6" key="tools" />,
+    //     <Code className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" key="code" />,
+    //   ]
+    // },
+    // {
+    //   title: "EduNexus- EdTech Platform",
+    //   description: "Engineered a highly scalable EdTech platform...",
+    //   imageSrc: "/Edunexus.png",
+    //   link: "https://edunexus-eight.vercel.app/",
+    //   isGitHub: false,
+    //   icons: [
+    //     <div className="text-blue-400 font-bold text-xs sm:text-sm" key="react">⚛️</div>,
+    //     <div className="text-green-500 font-bold text-xs sm:text-sm" key="mongodb">M</div>,
+    //     <div className="text-yellow-500 font-bold text-xs sm:text-sm" key="express">Ex</div>,
+    //     <div className="text-purple-500 font-bold text-xs sm:text-sm" key="redux">Rx</div>,
+    //     <Code className="text-blue-400 w-5 h-5 sm:w-6 sm:h-6" key="code" />
+    //   ]
+    // },
+    // {
+    //   title: "NavSarjan- Research Management Platform",
+    //   description: "Developed for 200+ institutions in Gujarat...",
+    //   imageSrc: "/Navsarjan.png",
+    //   link: "https://github.com/jhaaryan597/NavSarjan",
+    //   isGitHub: true,
+    //   icons: [
+    //     <div className="text-blue-400 font-bold text-xs sm:text-sm" key="react">⚛️</div>,
+    //     <div className="text-green-500 font-bold text-xs sm:text-sm" key="mongodb">M</div>,
+    //     <div className="text-yellow-500 font-bold text-xs sm:text-sm" key="express">Ex</div>,
+    //     <div className="text-cyan-400 font-bold text-xs sm:text-sm" key="socketio">S.IO</div>
+    //   ]
+    // }
   ];
+
+  if (cards.length === 0) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-gray-950 p-4 sm:p-6 md:p-8" id='Projects'>
-      {/* Responsive heading */}
       <h1 className="heading m-2 mb-6 sm:mb-8 md:mb-10 text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
         Some of my recent<span className="text-purple"> Projects</span>
       </h1>
       <div className="max-w-7xl mx-auto">
-        {/* Responsive grid layout with better breakpoints */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {cards.map((card, index) => (
             <Card

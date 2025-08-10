@@ -31,8 +31,8 @@ This is a modern, responsive portfolio website built with Next.js, React, and Fr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kishan-25/balkishan.dev.git
-   cd balkishan.dev
+   git clone https://github.com/kishan-25/aryan.dev.git
+   cd aryan.dev
 
 2. Install Dependencies
     ```bash

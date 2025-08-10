@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
-import { PublicationData } from "@/data";
+import { ProjectsData } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
 const Publication = () => {
   return (
-    <div className="py-20 w-full px-4 sm:px-6 md:px-10" id="Publication">
+    <div className="py-20 w-full px-4 sm:px-6 md:px-10" id="Projects">
       <h1 className="heading text-center text-2xl md:text-3xl lg:text-4xl font-bold">
-        My first Publication on <span className="text-purple"> Leveraging Pathfinding Algorithms for Efficient Metro Routing and Scheduling</span>
+        A small selection of <span className="text-purple">recent projects</span>
       </h1>
 
       <div className="w-full mt-12 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-10">
-        {PublicationData.map((card) => (
+        {ProjectsData.map((card) => (
           <Button
             key={card.id}
             duration={Math.floor(Math.random() * 10000) + 10000}

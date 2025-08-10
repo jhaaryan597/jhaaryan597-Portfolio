@@ -1,84 +1,132 @@
 export const navItems = [
   {name: "Home", link:"#home"},
   {name: "Experience", link:"#Experience"},
-  {name: "Publications", link:"#Publication"},
   {name: "Projects", link:"#Projects"},
   {name: "Achievements", link:"#Achievements"},
   {name: "Contact", link:"#Contact"}
 ];
 
 export const techStack = [
-	{ svg: "/icons/Express.svg" },
-	{ svg: "/icons/Node.js.svg" },
-	{ svg: "/icons/Tailwind CSS.svg" },
-	{ svg: "/icons/MongoDB.svg" },
-	{ svg: "/icons/Nodemon.svg" },
-	// { svg: "/icons/Three.js.svg" },
-	// { svg: "/icons/PostgresSQL.svg" },
-	{ svg: "/icons/CSS3.svg" },
-	{ svg: "/icons/JavaScript.svg " },
-	{ svg: "/icons/Next.js.svg" },
-	{ svg: "/icons/React.svg" },
-  { svg: "/icons/django.svg" },
-	{ svg: "/icons/HTML5.svg" },
+	{ svg: "/icons/Swift.svg" },
+	{ svg: "/icons/Flutter.svg" },
+	{ svg: "/icons/Dart.svg" },
+	{ svg: "/icons/SwiftUI.svg" },
+	{ svg: "/icons/UIKit.svg" },
+	{ svg: "/icons/Riverpod.svg" },
+	{ svg: "/icons/Supabase.svg" },
+	{ svg: "/icons/Firebase.svg" },
+	{ svg: "/icons/SQLite.svg" },
+	{ svg: "/icons/PostgreSQL.svg" },
+	{ svg: "/icons/REST.svg" },
+	{ svg: "/icons/Solidity.svg" },
 ];
 export const languagesAndTools = [
-	{ svg: "/icons/Material UI.svg" },
-	{ svg: "/icons/Bootstrap.svg" },
+	{ svg: "/icons/Xcode.svg" },
+	{ svg: "/icons/Android Studio.svg" },
 	{ svg: "/icons/Git.svg" },
-	{ svg: "/icons/Mongoose.js.svg" },
-	{ svg: "/icons/jQuery.svg" },
-	{ svg: "/icons/Markdown.svg" },
-	{ svg: "/icons/NPM.svg" },
-	{ svg: "/icons/MySQL.svg" },
+	{ svg: "/icons/GitHub.svg" },
+	{ svg: "/icons/Postman.svg" },
+	{ svg: "/icons/HiveDB.svg" },
+	{ svg: "/icons/Google OAuth.svg" },
+	{ svg: "/icons/WhatsApp API.svg" },
 ];
 export const frameWorks = [
-	{ svg: "/icons/C.svg" },
 	{ svg: "/icons/C++.svg" },
-	{ svg: "/icons/Java.svg" },
-	{ svg: "/icons/Python.svg" },
-	{ svg: "/icons/Xcode.svg" },
-	{ svg: "/icons/VS code.svg" },
-	{ svg: "/icons/Postman.svg" },
-	{ svg: "/icons/Canva.svg" },
-	{ svg: "/icons/Adobe Photoshop.svg" },
-	{ svg: "/icons/FastAPI.svg" },
+	{ svg: "/icons/Swift.svg" },
+	{ svg: "/icons/Dart.svg" },
+	{ svg: "/icons/Solidity.svg" },
+	{ svg: "/icons/MVVM.svg" },
+	{ svg: "/icons/OOP.svg" },
+	{ svg: "/icons/System Design.svg" },
+	{ svg: "/icons/Data Structures.svg" },
+	{ svg: "/icons/Algorithms.svg" },
+	{ svg: "/icons/Software Engineering.svg" },
 ];
 
 
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineer Intern",
-    desc: "Developed a scalable tourism website for Keibul Lamjao National Park, optimized UI performance with a projected 40% booking efficiency gain.",
+    title: "Software Developer Intern - Railse",
+    desc: "Built scalable Flutter modules with priority-based task management and advanced filters, improving execution speed by 40% and enhancing workflow visibility. Integrated WhatsApp Business API for automated messaging and media sharing; optimized backend workflows with Git and REST APIs, reducing bugs by 30%.",
     className: "md:col-span-2",
-    thumbnail: "/codexp_logo.jpeg",
+    thumbnail: "/railse_logo.jpeg",
   },
  
   {
     id: 2,
-    title: "GDG Development Co-ordinator",
-    desc: "Lead the planning and execution of technical events, workshops, and hackathons, fostering an engaging and collaborative developer community",
+    title: "Flutter Developer Intern - Gravitones",
+    desc: "Delivered Guftagu AI character creation app using Flutter, Dart, and Firebase with Google OAuth, offline storage via HiveDB, and 40% faster load times. Conducted high-scale performance testing with 1,000+ simulated users and maintained quality standards via code reviews and best practices.",
     className: "md:col-span-2",
-    thumbnail: "/gdg.svg",
+    thumbnail: "/gravitones_logo.jpeg",
   },
 ];
 
-export const PublicationData = [
+export const ProjectsData = [
   {
     id: 1,
-    title: "Certificate of Acceptance",
-    desc: "Published in the IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI-2025).",
+    title: "Kollaborate – iOS Team Collaboration App",
+    desc: "Built in SwiftUI with Supabase backend, implementing role-based authentication, channel organization, and post creation with file/image uploads. Applied MVVM architecture and modular services for maintainability with real-time synchronization of user, post, and channel data.",
     className: "md:col-span-2",
-    thumbnail: "/PaperAcceptance.jpg",
+    thumbnail: "/kollaborate.png",
   },
  
   {
     id: 2,
-    title: "Best Research Paper Award(2nd Position)",
-    desc: " Awarded 2nd position in Best Research Paper Award under the track IT-enabled Management for Social Change. Selected from 2,800+ research submissions worldwide.",
+    title: "HostelHunt – Student Accommodation Finder",
+    desc: "Cross-platform iOS/macOS app in SwiftUI with SQL backend, offering search filters (price, gender, amenities) and location-based discovery. Designed a Gen-Z inspired UI with glass morphism, animations, and reusable components.",
     className: "md:col-span-2",
-    thumbnail: "/BestPaper.jpg",
+    thumbnail: "/hostelhunt.png",
+  },
+  {
+    id: 3,
+    title: "ZappyChat – Real-Time Messaging App",
+    desc: "Built with Flutter, Riverpod, and Supabase Realtime; integrated Google Sign-In and end-to-end encryption. Reduced message latency by 35% through query optimization; added AI assistant via Google Gemini API.",
+    className: "md:col-span-2",
+    thumbnail: "/zappychat.png",
+  },
+];
+
+export const AchievementsData = [
+  {
+    id: 1,
+    title: "NER'25 Tech Hackathon: Finalist",
+    desc: "Finalist (top 3% of 1,300+ teams) for AI & IoT-powered smart agriculture solution with real-time monitoring.",
+    className: "md:col-span-2",
+    thumbnail: "/ner25.png",
+  },
+ 
+  {
+    id: 2,
+    title: "Ahouba Hackathon: 3rd place",
+    desc: "3rd place in a 24-hour hackathon for building a full-stack app using Flutter, Firebase, and REST APIs.",
+    className: "md:col-span-2",
+    thumbnail: "/ahouba.png",
+  },
+];
+
+export const CertificationsData = [
+  {
+    id: 1,
+    title: "Software Engineering Job Simulation – Goldman Sachs",
+    desc: "Software Engineering Job Simulation – Goldman Sachs",
+    className: "md:col-span-2",
+    thumbnail: "/goldman_sachs.png",
+  },
+ 
+  {
+    id: 2,
+    title: "Blockchain and Its Application – NPTEL",
+    desc: "Blockchain and Its Application – NPTEL",
+    className: "md:col-span-2",
+    thumbnail: "/nptel_blockchain.png",
+  },
+  {
+    id: 3,
+    title: "Software Testing – NPTEL",
+    desc: "Software Testing – NPTEL",
+    className: "md:col-span-2",
+    thumbnail: "/nptel_testing.png",
   },
 ];
 
@@ -86,32 +134,46 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/kishan-25"
+    link: "https://github.com/jhaaryan597"
   },
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/balkishan-bajpay-400283325/"
-  },
-  {
-    id: 3,
-    img: "/insta.svg",
-    link: "https://www.instagram.com/kishanxplorer/"
+    link: "https://www.linkedin.com/in/jhaaryan597"
   },
 ];
 
 export const liveLink = [
   {
     id:1,
-    link:"https://github.com/kishan-25/Metro-Routing-and-Scheduling-System",
+    link:"https://github.com/jhaaryan597/Kollaborate",
   },
   {
     id:2,
-    
-    link:"https://edunexus-eight.vercel.app/"
+    link:"https://github.com/jhaaryan597/HostelHunt"
   },
   {
     id:3,
-    link:"https://github.com/kishan-25/NavSarjan",
+    link:"https://github.com/jhaaryan597/ZappyChat",
   }
 ];
+
+export const personalInfo = {
+  name: "Aryan Jha",
+  email: "aryanjha230705@gmail.com",
+  phone: "+91 7389125979",
+  education: {
+    institution: "Indian Institute of Information Technology Manipur",
+    location: "Imphal, Manipur",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
+    duration: "Nov 2022 – May 2026",
+    specialization: "Artificial Intelligence and Data Science",
+    sgpa: "8.76",
+    cgpa: "7.75"
+  },
+  extracurricular: [
+    "General Sports Secretary, IIIT Manipur: Organized intra-college tournaments with 200+ participants.",
+    "Contingent Leader, Asmita '24 (IIIT Allahabad): Led 85-member team; won medals in 16 events.",
+    "Tech Core Member, GDG Imphal: Led Flutter workshops and deployed production apps showcased at GDG events with 100+ developers."
+  ]
+};

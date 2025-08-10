@@ -128,14 +128,14 @@ export const FloatingNav = ({
               </Link>
             ))}
             
-            {/* Download CV Button */}
-            <Link
-              href="/BK_CV.pdf"
-              download="BK_CV.pdf"
-              target="_blank"
-              className={cn(
-                "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 ml-2 px-3 py-1 rounded-md bg-opacity-20 bg-white hover:bg-opacity-30 transition-all"
-              )}
+          {/* Download CV Button */}
+          <Link
+            href="/resume_AryanJha.pdf"
+            download="resume_AryanJha.pdf"
+            target="_blank"
+            className={cn(
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 ml-2 px-3 py-1 rounded-md bg-opacity-20 bg-white hover:bg-opacity-30 transition-all"
+            )}
             >
               <span className="text-sm !cursor-pointer font-medium">Download CV</span>
             </Link>
@@ -172,14 +172,14 @@ export const FloatingNav = ({
                   </Link>
                 ))}
                 
-                {/* Download CV Button in Mobile Menu */}
-                <Link
-                  href="/BK_CV.pdf"
-                  download="BK_CV.pdf"
-                  target="_blank"
-                  className={cn(
-                    "relative dark:text-neutral-50 items-center flex space-x-2 text-neutral-300 hover:bg-[rgba(255,255,255,0.1)] px-4 py-3 mt-2 border-t border-[rgba(255,255,255,0.1)]"
-                  )}
+                  {/* Download CV Button in Mobile Menu */}
+                  <Link
+                    href="/resume_AryanJha.pdf"
+                    download="resume_AryanJha.pdf"
+                    target="_blank"
+                    className={cn(
+                      "relative dark:text-neutral-50 items-center flex space-x-2 text-neutral-300 hover:bg-[rgba(255,255,255,0.1)] px-4 py-3 mt-2 border-t border-[rgba(255,255,255,0.1)]"
+                    )}
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -7,30 +7,11 @@ import Image from "next/image";
 const Achievements = () => {
  
   const certificates = [
+
     {
       id: 1,
-      name: "SIH'24 Winner",
-      img: "/SIHWinner.jpg",
-    },
-    {
-      id: 2,
-      name: "Cyber Security Quiz Winner",
-      img: "/CyberSecurity.jpg",
-    },
-    {
-      id: 3,
       name: "Ahouba'24 3rd Position",
       img: "/ahouba.jpg",
-    },
-    {
-      id: 4,
-      name: "Authorship acceptance",
-      img: "/PaperAcceptance.jpg",
-    },
-    {
-      id: 5,
-      name: "Best Paper Award",
-      img: "/BestPaper.jpg",
     },
     
   ];
