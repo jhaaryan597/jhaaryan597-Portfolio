@@ -11,7 +11,7 @@ const Achievements = () => {
     {
       id: 1,
       name: "Ahouba'24 3rd Position",
-      img: "/ahouba.jpg",
+      img: "/ahouba1.jpg",
     },
     
   ];
@@ -32,10 +32,11 @@ const Achievements = () => {
             {certificates.map((cert) => (
               <div key={cert.id} className="flex flex-col items-center mx-8">
                 <p className="text-sm font-medium mb-2">{cert.name}</p>
-                <img
-                  
-                  src={cert.img} 
-                  alt={cert.name} 
+                <Image
+                  src={cert.img}
+                  alt={cert.name}
+                  width={300}
+                  height={176}
                   className="h-44 object-contain"
                 />
               </div>

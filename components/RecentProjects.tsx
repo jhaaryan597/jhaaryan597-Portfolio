@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
+import Image from 'next/image';
 import { Code, Terminal, ExternalLink } from 'lucide-react';
 
 interface CardProps {
@@ -17,10 +18,12 @@ const Card: React.FC<CardProps> = ({ title, description, imageSrc, icons, link, 
     <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg flex flex-col h-full">
       {/* Responsive image container - adjusted height for different screen sizes */}
       <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden">
-        <img 
-          src={imageSrc} 
-          alt={title} 
-          className="w-full h-full object-contain" 
+        <Image
+          src={imageSrc}
+          alt={title}
+          width={500}
+          height={300}
+          className="w-full h-full object-contain"
         />
       </div>
       

@@ -21,31 +21,11 @@ const SkillsSection: React.FC = () => {
     {
       title: "Programming Languages",
       skills: [
-        { name: "C++", icon: "/skills/c++.svg" }, // Fixed direct path for C++
-        { name: "JavaScript", icon: "/skills/javascript-2.svg" },
-        { name: "C", icon: iconPath("c") },
-        { name: "Java", icon: "/skills/java-4.svg" },
-        { name: "TypeScript", icon: iconPath("typescript") },
+        { name: "C++", icon: "/skills/c++.svg" }, 
         { name: "SQL", icon: "/skills/sql.svg" },
-        { name: "Bash", icon: "/skills/bash-1.svg" },
-        { name: "Python", icon: "/skills/python-5.svg" },
-        { name: "PHP", icon: "/skills/php-4.svg" },
-        { name: "HTML", icon: "/skills/html-1.svg" },
-        { name: "CSS", icon: "/skills/css-3.svg" },
-      ]
-    },
-    {
-      title: "Frameworks & Libraries",
-      skills: [
-        { name: "Tailwind CSS", icon: "/skills/tailwind-css-icon.svg" },
-        { name: "React.js", icon: "/skills/react-2.svg" },
-        { name: "Node.js", icon: "/skills/nodejs.svg" },
-        { name: "Next.js", icon: "/skills/nextjs.svg" },
-        { name: "Express.js", icon: "/skills/express.svg" },
-        { name: "Django", icon: "/skills/django-svgrepo-com.svg" },
-        { name: "Redux", icon: "/skills/redux.svg" },
-        { name: "Axios", icon: "/skills/axios.svg" },
-        { name: "Bootstrap", icon: "/skills/bootstrap-5-1.svg" },
+        { name: "Flutter", icon: "/skills/flutter.svg" },
+        { name: "Swift", icon: "/skills/swift.svg" },
+        { name: "SwiftUI", icon: "/skills/swiftui.svg" },
       ]
     },
     {
@@ -61,13 +41,16 @@ const SkillsSection: React.FC = () => {
       skills: [
         { name: "Git", icon: "/skills/git-icon.svg"},
         { name: "GitHub", icon: "/skills/github-icon-1.svg" },
-        { name: "IntelliJ", icon: "/skills/intellij-idea-1.svg" },
         { name: "Postman", icon: "/skills/postman.svg" },
-        { name: "Apache", icon: "/skills/apache.svg" },
         { name: "LaTeX", icon: "/skills/latex.svg" },
-        { name: "Wireshark", icon: "/skills/wireshark.svg" },
-        { name: "Linux", icon: "/skills/linux.svg"},
-        { name: "JWT", icon: "/skills/jwt-3.svg" },
+        { name: "Firebase", icon: "/skills/firebase.png"},
+        { name: "Supabase", icon: "/skills/supabase.png" },
+        { name: "Xcode", icon: "/skills/xcode.svg" },
+        { name: "VS Code", icon: "/skills/vscode.svg" },
+        { name: "IntelliJ IDEA", icon: "/skills/intellij-idea-1.svg" },
+        { name: "NPM", icon: "/skills/npm.svg" },
+        { name: "FastAPI", icon: "/skills/fastapi.svg" },
+        { name: "Material UI", icon: "/skills/material-ui.svg" },
       ]
     },
   ];

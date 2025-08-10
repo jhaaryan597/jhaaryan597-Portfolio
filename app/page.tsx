@@ -8,8 +8,8 @@ import Experience from "@/components/Experience";
 import Publication from "@/components/Publications";
 import RecentProjects from "@/components/RecentProjects";
 import Achievements from "@/components/Achievements"; 
-import SkillsSection from "@/components/Skills";
-import Clients from "@/components/Clients";
+import Skills from "@/components/Skills";
+// import Clients from "@/components/Clients";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
@@ -21,8 +21,8 @@ const Home = () => {
         <Experience/>
         <Publication/>
         <RecentProjects />
-        {/* <SkillsSection/> */}
-        <Clients/>
+        <Skills/>
+        {/* <Clients/> */}
         <Achievements/>
         <Footer />
       </div>
