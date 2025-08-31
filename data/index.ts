@@ -7,31 +7,18 @@ export const navItems = [
 ];
 
 export const techStack = [
-  { svg: "/icons/Xcode.svg" },
-  { svg: "/firebase.png" },
-  { svg: "/flutter.png" },
-  { svg: "/supabase.png" },
   { svg: "/swift.png" },
+  { svg: "/icons/C++.svg" },
   { svg: "/swiftUi.png" },
   { svg: "/UIkit.png" },
-  { svg: "/icons/C++.svg" },
-  { svg: "/skills/sql.svg" },
-  { svg: "/icons/MySQL.svg" },
-  { svg: "/skills/sqlite.svg" },
+  { svg: "/flutter.png" },
+  { svg: "/supabase.png" },
+  { svg: "/firebase.png" },
+  { svg: "/icons/Xcode.svg" },
   { svg: "/icons/Git.svg" },
   { svg: "/skills/github-icon-1.svg" },
-  { svg: "/skills/intellij-idea-1.svg" },
   { svg: "/icons/Postman.svg" },
-  { svg: "/skills/jwt-3.svg" },
-  { svg: "/icons/C.svg" },
-  { svg: "/icons/FastAPI.svg" },
-  { svg: "/icons/Mongoose.js.svg" },
-  { svg: "/icons/Material UI.svg" },
-  { svg: "/icons/ngrok.svg" },
-  { svg: "/icons/Nodemon.svg" },
-  { svg: "/icons/NPM.svg" },
   { svg: "/icons/PostgresSQL.svg" },
-  { svg: "/icons/VS Code.svg" },
 ];
 
 
@@ -56,23 +43,22 @@ export const workExperience = [
 export const ProjectsData = [
   {
     id: 1,
-    title: "Kollaborate – iOS Team Collaboration App",
-    desc: "Built in SwiftUI with Supabase backend, implementing role-based authentication, channel organization, and post creation with file/image uploads. Applied MVVM architecture and modular services for maintainability with real-time synchronization of user, post, and channel data.",
+    title: "Kollaborate",
+    desc: "A modern iOS app for collaboration, discussions, and project management. Built with SwiftUI and powered by Supabase, Kollaborate provides a space where users can share updates, explore projects, manage tasks, and connect with peers.",
     className: "md:col-span-2",
     thumbnail: "/Kollaborate-app-icon.png",
   },
- 
   {
     id: 2,
-    title: "HostelHunt – Student Accommodation Finder",
-    desc: "Cross-platform iOS/macOS app in SwiftUI with SQL backend, offering search filters (price, gender, amenities) and location-based discovery. Designed a Gen-Z inspired UI with glass morphism, animations, and reusable components.",
+    title: "HostelHunt",
+    desc: "A modern, sleek, and user-friendly iOS application for discovering and booking hostels. Built with SwiftUI and powered by Supabase, HostelHunt makes it simple for travelers to explore, wishlist, and reserve accommodations worldwide.",
     className: "md:col-span-2",
     thumbnail: "/hostelhunt.png",
   },
   {
     id: 3,
-    title: "ZappyChat – Real-Time Messaging App",
-    desc: "Built with Flutter, Riverpod, and Supabase Realtime; integrated Google Sign-In and end-to-end encryption. Reduced message latency by 35% through query optimization; added AI assistant via Google Gemini API.",
+    title: "ZappyChat",
+    desc: "A modern, feature-rich & cross-platform chat application built with Flutter + Supabase. Seamlessly chat with friends, manage profiles, and interact with an AI-powered assistant (Gemini) — all in one sleek app.",
     className: "md:col-span-2",
     thumbnail: "/zappychat.png",
   },
@@ -137,11 +123,11 @@ export const socialMedia = [
 export const liveLink = [
   {
     id:1,
-    link:"https://github.com/jhaaryan597/Kollaborate",
+    link:"https://github.com/jhaaryan597/HostelHunt",
   },
   {
     id:2,
-    link:"https://github.com/jhaaryan597/HostelHunt"
+    link:"https://github.com/jhaaryan597/Kollaborate"
   },
   {
     id:3,

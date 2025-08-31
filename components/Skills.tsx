@@ -23,17 +23,18 @@ const SkillsSection: React.FC = () => {
       skills: [
         { name: "C++", icon: "/skills/c++.svg" }, 
         { name: "SQL", icon: "/skills/sql.svg" },
-        { name: "Flutter", icon: "/skills/flutter.svg" },
-        { name: "Swift", icon: "/skills/swift.svg" },
-        { name: "SwiftUI", icon: "/skills/swiftui.svg" },
+        { name: "Flutter", icon: "/skills/flutter.png" },
+        { name: "Swift", icon: "/skills/swift.png" },
+        { name: "SwiftUI", icon: "/skills/swiftui.png" },
       ]
     },
     {
       title: "Databases",
       skills: [
         { name: "MySQL", icon: "/skills/mysql-3.svg" },
-        { name: "SQLite", icon: "/skills/sqlite.svg" },
-        { name: "MongoDB", icon: "/skills/mongodb.svg" },
+        { name: "PostgreSQL", icon: "/skills/PostgreSQL.png" },
+        { name: "Firebase", icon: "/skills/firebase.png" },
+        { name: "Supabase", icon: "/skills/supabase.png" },
       ]
     },
     {
@@ -42,15 +43,9 @@ const SkillsSection: React.FC = () => {
         { name: "Git", icon: "/skills/git-icon.svg"},
         { name: "GitHub", icon: "/skills/github-icon-1.svg" },
         { name: "Postman", icon: "/skills/postman.svg" },
-        { name: "LaTeX", icon: "/skills/latex.svg" },
-        { name: "Firebase", icon: "/skills/firebase.png"},
-        { name: "Supabase", icon: "/skills/supabase.png" },
-        { name: "Xcode", icon: "/skills/xcode.svg" },
-        { name: "VS Code", icon: "/skills/vscode.svg" },
-        { name: "IntelliJ IDEA", icon: "/skills/intellij-idea-1.svg" },
-        { name: "NPM", icon: "/skills/npm.svg" },
-        { name: "FastAPI", icon: "/skills/fastapi.svg" },
-        { name: "Material UI", icon: "/skills/material-ui.svg" },
+        { name: "Xcode", icon: "/skills/xcode.png" },
+        { name: "VS Code", icon: "/skills/vscode.png" },
+        { name: "Android Studio", icon: "/skills/androidStudio.png" },
       ]
     },
   ];
