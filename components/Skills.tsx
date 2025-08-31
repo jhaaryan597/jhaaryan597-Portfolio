@@ -17,38 +17,48 @@ const SkillsSection: React.FC = () => {
   // Helper function to create path to icon - updated to use /skills/ directory
   const iconPath = (name: string): string => `/skills/${name.toLowerCase().replace(/[.\s&+]/g, '')}.svg`;
 
-  const skillCategories: SkillCategory[] = [
-    {
-      title: "Programming Languages",
-      skills: [
-        { name: "C++", icon: "/skills/c++.svg" }, 
-        { name: "SQL", icon: "/skills/sql.svg" },
-        { name: "Flutter", icon: "/skills/flutter.png" },
-        { name: "Swift", icon: "/skills/swift.png" },
-        { name: "SwiftUI", icon: "/skills/swiftui.png" },
-      ]
-    },
-    {
-      title: "Databases",
-      skills: [
-        { name: "MySQL", icon: "/skills/mysql-3.svg" },
-        { name: "PostgreSQL", icon: "/skills/PostgreSQL.png" },
-        { name: "Firebase", icon: "/skills/firebase.png" },
-        { name: "Supabase", icon: "/skills/supabase.png" },
-      ]
-    },
-    {
-      title: "Tools & Technologies",
-      skills: [
-        { name: "Git", icon: "/skills/git-icon.svg"},
-        { name: "GitHub", icon: "/skills/github-icon-1.svg" },
-        { name: "Postman", icon: "/skills/postman.svg" },
-        { name: "Xcode", icon: "/skills/xcode.png" },
-        { name: "VS Code", icon: "/skills/vscode.png" },
-        { name: "Android Studio", icon: "/skills/androidStudio.png" },
-      ]
-    },
-  ];
+const skillCategories: SkillCategory[] = [
+  {
+    title: "Programming Languages",
+    skills: [
+      { name: "C++", icon: "/skills/c++.svg" },
+      { name: "SQL", icon: "/skills/sql.svg" },
+      { name: "Dart", icon: "/skills/dart.png" },
+      { name: "Swift", icon: "/swift.png" },
+      { name: "Solidity", icon: "/skills/solidity.png" },
+    ]
+  },
+  {
+    title: "Frameworks & Libraries",
+    skills: [
+      { name: "Flutter", icon: "/flutter.png" },
+      { name: "SwiftUI", icon: "/swiftUi.png" },
+      { name: "Riverpod", icon: "/skills/riverpod.png" },
+      { name: "GetX", icon: "/skills/getx.png" },
+      { name: "REST API", icon: "/skills/rest.png" },
+    ]
+  },
+  {
+    title: "Databases & Backend",
+    skills: [
+      { name: "MySQL", icon: "/skills/mysql.png" },
+      { name: "PostgreSQL", icon: "/icons/PostgresSQL.svg" },
+      { name: "Firebase", icon: "/firebase.png" },
+      { name: "Supabase", icon: "/supabase.png" },
+    ]
+  },
+  {
+    title: "Tools & Technologies",
+    skills: [
+      { name: "Git", icon: "/skills/git-icon.svg" },
+      { name: "GitHub", icon: "/skills/github-icon-1.svg" },
+      { name: "Postman", icon: "/skills/postman.svg" },
+      { name: "Xcode", icon: "/icons/Xcode.svg" },
+      { name: "VS Code", icon: "/skills/vscode.png" },
+      { name: "Android Studio", icon: "/skills/androidStudio.png" },
+    ]
+  },
+];
 
   return (
     <section id="Skills" className="py-16">
@@ -64,8 +74,7 @@ const SkillsSection: React.FC = () => {
                   <div 
                     key={skillIndex} 
                     className="flex items-center rounded-lg px-4 py-2 border border-gray-200 
-                               transition-all duration-300 hover:shadow-md 
-                               hover:translate-y-[-2px]"
+                               transition-all duration-300 hover:shadow-md"
                   >
                     <div className="w-6 h-6 mr-2 flex-shrink-0">
                       <Image 
