@@ -63,7 +63,9 @@ const skillCategories: SkillCategory[] = [
   return (
     <section id="Skills" className="py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center mb-12">Technical Skills</h1>
+        <h1 className="heading text-center mb-12">
+          <span className="text-purple">Technical Skills</span>
+        </h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {skillCategories.map((category, index) => (
