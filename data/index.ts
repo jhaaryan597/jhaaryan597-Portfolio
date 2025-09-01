@@ -99,6 +99,11 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/jhaaryan597"
   },
+  {
+    id: 3,
+    img: "/wha.svg",
+    link: "https://wa.me/917389125979"
+  },
 ];
 
 export const liveLink = [
