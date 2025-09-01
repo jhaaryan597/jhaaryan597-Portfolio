@@ -1,6 +1,7 @@
 export const navItems = [
   {name: "Home", link:"#home"},
   {name: "Experience", link:"#Experience"},
+  {name: "Education", link: "#education"},
   {name: "Projects", link:"#Projects"},
   {name: "Achievements", link:"#Achievements"},
   {name: "Contact", link:"#Contact"}
@@ -41,6 +42,17 @@ export const workExperience = [
     thumbnail: "/gravitones_logo.jpeg",
     link: "https://www.linkedin.com/in/jhaaryan597/overlay/1755193222106/single-media-viewer/?profileId=ACoAAE6VwwsBlNlQMzh5qHNUz9boXjVGfK2Cq0E",
     date: "Apr 2025 – May 2025",
+  },
+];
+
+export const educationExperience = [
+  {
+    id: 1,
+    title: "Indian Institute of Information Technology Manipur",
+    location: "Imphal, Manipur",
+    desc: "Bachelor of Technology in Computer Science and Engineering with a specialization in Artificial Intelligence and Data Science. SGPA: 8.76, CGPA: 7.75",
+    coursework: "Relevant Coursework: Data Structures, Algorithms, System Design, OOP, OS, Software Engineering, Blockchain, Software Testing, DBMS, Computer Networks",
+    date: "Nov 2022 – May 2026",
   },
 ];
 

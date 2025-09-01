@@ -5,6 +5,7 @@ import { navItems } from "@/data";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 import Publication from "@/components/Publications";
 import RecentProjects from "@/components/RecentProjects";
 import Achievements from "@/components/Achievements"; 
@@ -19,6 +20,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero /> 
         <Experience/>
+        <Education />
         <Publication/>
         {/* <RecentProjects /> */}
         <Skills/>
