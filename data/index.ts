@@ -74,48 +74,7 @@ export const ProjectsData = [
   },
 ];
 
-export const AchievementsData = [
-  {
-    id: 1,
-    title: "NER'25 Tech Hackathon: Finalist",
-    desc: "Finalist (top 3% of 1,300+ teams) for AI & IoT-powered smart agriculture solution with real-time monitoring.",
-    className: "md:col-span-2",
-    thumbnail: "/ner25.png",
-  },
- 
-  {
-    id: 2,
-    title: "Ahouba Hackathon: 3rd place",
-    desc: "3rd place in a 24-hour hackathon for building a full-stack app using Flutter, Firebase, and REST APIs.",
-    className: "md:col-span-2",
-    thumbnail: "/ahouba.png",
-  },
-];
 
-export const CertificationsData = [
-  {
-    id: 1,
-    title: "Software Engineering Job Simulation – Goldman Sachs",
-    desc: "Software Engineering Job Simulation – Goldman Sachs",
-    className: "md:col-span-2",
-    thumbnail: "/goldman_sachs.png",
-  },
- 
-  {
-    id: 2,
-    title: "Blockchain and Its Application – NPTEL",
-    desc: "Blockchain and Its Application – NPTEL",
-    className: "md:col-span-2",
-    thumbnail: "/nptel_blockchain.png",
-  },
-  {
-    id: 3,
-    title: "Software Testing – NPTEL",
-    desc: "Software Testing – NPTEL",
-    className: "md:col-span-2",
-    thumbnail: "/nptel_testing.png",
-  },
-];
 
 export const socialMedia = [
   {
