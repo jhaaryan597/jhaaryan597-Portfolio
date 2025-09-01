@@ -29,6 +29,8 @@ export const workExperience = [
     desc: "Built scalable Flutter modules with priority-based task management and advanced filters, improving execution speed by 40% and enhancing workflow visibility. Integrated WhatsApp Business API for automated messaging and media sharing; optimized backend workflows with Git and REST APIs, reducing bugs by 30%.",
     className: "md:col-span-2",
     thumbnail: "/railse_logo.jpeg",
+    link: "https://www.linkedin.com/in/jhaaryan597/overlay/1755191211151/single-media-viewer/?profileId=ACoAAE6VwwsBlNlQMzh5qHNUz9boXjVGfK2Cq0E",
+    date: "Jun 2025 – Jul 2025",
   },
  
   {
@@ -37,6 +39,8 @@ export const workExperience = [
     desc: "Delivered Guftagu AI character creation app using Flutter, Dart, and Firebase with Google OAuth, offline storage via HiveDB, and 40% faster load times. Conducted high-scale performance testing with 1,000+ simulated users and maintained quality standards via code reviews and best practices.",
     className: "md:col-span-2",
     thumbnail: "/gravitones_logo.jpeg",
+    link: "https://www.linkedin.com/in/jhaaryan597/overlay/1755193222106/single-media-viewer/?profileId=ACoAAE6VwwsBlNlQMzh5qHNUz9boXjVGfK2Cq0E",
+    date: "Apr 2025 – May 2025",
   },
 ];
 
@@ -47,6 +51,8 @@ export const ProjectsData = [
     desc: "A modern iOS app for collaboration, discussions, and project management. Built with SwiftUI and powered by Supabase, Kollaborate provides a space where users can share updates, explore projects, manage tasks, and connect with peers.",
     className: "md:col-span-2",
     thumbnail: "/Kollaborate-app-icon.png",
+    link: "https://github.com/jhaaryan597/Kollaborate",
+    isGitHub: true,
   },
   {
     id: 2,
@@ -54,6 +60,8 @@ export const ProjectsData = [
     desc: "A modern, sleek, and user-friendly iOS application for discovering and booking hostels. Built with SwiftUI and powered by Supabase, HostelHunt makes it simple for travelers to explore, wishlist, and reserve accommodations worldwide.",
     className: "md:col-span-2",
     thumbnail: "/hostelhunt.png",
+    link: "https://github.com/jhaaryan597/HostelHunt",
+    isGitHub: true,
   },
   {
     id: 3,
@@ -61,6 +69,8 @@ export const ProjectsData = [
     desc: "A modern, feature-rich & cross-platform chat application built with Flutter + Supabase. Seamlessly chat with friends, manage profiles, and interact with an AI-powered assistant (Gemini) — all in one sleek app.",
     className: "md:col-span-2",
     thumbnail: "/zappychat.png",
+    link: "https://github.com/jhaaryan597/ZappyChat",
+    isGitHub: true,
   },
 ];
 

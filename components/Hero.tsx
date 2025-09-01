@@ -23,7 +23,6 @@ const Hero = () => {
        absolute top-0 left-0 flex items-center justify-center"
       >
         <div
-          
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
@@ -32,15 +31,15 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 md:max-w-[95%]">
-						Passionate about building beautiful and functional applications
-					</p>
+            Specializing in iOS & Flutter Development
+          </p>
           <TextGenerateEffect
-            words="Crafting Seamless User Experiences with Code"
+            words="Designing & Developing Seamless Mobile Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Aryan Jha, a Software Developer based in India.
+            Hi! I&apos;m Aryan Jha, an iOS & Flutter Developer creating high-quality, performance-driven mobile apps.
           </p>
 
           <Link href="#Projects">
