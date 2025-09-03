@@ -130,8 +130,8 @@ export const FloatingNav = ({
             
           {/* Download CV Button */}
           <Link
-            href="/resume_AryanJha.pdf"
-            download="resume_AryanJha.pdf"
+            href="/ResumeAryanJha.pdf"
+            download="ResumeAryanJha.pdf"
             target="_blank"
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500 ml-2 px-3 py-1 rounded-md bg-opacity-20 bg-white hover:bg-opacity-30 transition-all"
@@ -174,8 +174,8 @@ export const FloatingNav = ({
                 
                   {/* Download CV Button in Mobile Menu */}
                   <Link
-                    href="/resume_AryanJha.pdf"
-                    download="resume_AryanJha.pdf"
+                    href="/ResumeAryanJha.pdf"
+                    download="ResumeAryanJha.pdf"
                     target="_blank"
                     className={cn(
                       "relative dark:text-neutral-50 items-center flex space-x-2 text-neutral-300 hover:bg-[rgba(255,255,255,0.1)] px-4 py-3 mt-2 border-t border-[rgba(255,255,255,0.1)]"
