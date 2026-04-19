@@ -6,22 +6,28 @@ import Image from "next/image";
 const Achievements = () => {
   const achievementsData = [
     {
-      id: 2, // Changed order to match screenshot
-      title: "Ahouba Hackathon: 3rd place",
-      thumbnail: "/ss2.jpeg", // Corrected image path
-      desc: "Built a full-stack app in 24 hours using Flutter, Firebase, and REST APIs.",
+      id: 1,
+      title: "LeetCode: Global Top 5.24%",
+      thumbnail: "/ss3.jpeg",
+      desc: "Ranked in the global Top 5.24% with a peak contest rating of 1,867.",
+    },
+    {
+      id: 2,
+      title: "NER'25 Tech Hackathon: Finalist",
+      thumbnail: "/ss1.jpeg",
+      desc: "Finalist (top 3%) among 1,300+ teams, building an enterprise-grade solution within a 48-hour deadline.",
     },
     {
       id: 3,
-      title: "Engineers' Ring of Honour 2025",
-      thumbnail: "/ss3.jpeg", // Using your uploaded image
-      desc: "Secured Rank #9 at IIIT Manipur and an All India Rank of #973 in this prestigious nationwide competition.",
+      title: "Ahouba Hackathon: 3rd Place",
+      thumbnail: "/ss2.jpeg",
+      desc: "Built a full-stack Flutter app in 24 hours, validated by a panel of 5 industry experts.",
     },
     {
-      id: 1,
-      title: "NER'25 Tech Hackathon: Finalist",
-      thumbnail: "/ss1.jpeg", // Corrected image path
-      desc: "Finalist (top 3% of 1,300+ teams) for an AI & IoT-powered smart agriculture solution.",
+      id: 4,
+      title: "Engineers' Ring of Honour 2025",
+      thumbnail: "/ss3.jpeg",
+      desc: "Secured Rank #9 at IIIT Manipur and an All India Rank of #973 in this prestigious nationwide competition.",
     },
   ];
 

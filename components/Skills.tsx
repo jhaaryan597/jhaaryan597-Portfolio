@@ -22,8 +22,9 @@ const skillCategories: SkillCategory[] = [
     title: "Programming Languages",
     skills: [
       { name: "C++", icon: "/skills/c++.svg" },
-      { name: "SQL", icon: "/skills/sql.svg" },
       { name: "Dart", icon: "/skills/dart.png" },
+      { name: "JavaScript", icon: "/skills/javascript-2.svg" },
+      { name: "SQL", icon: "/skills/sql.svg" },
       { name: "Swift", icon: "/swift.png" },
       { name: "Solidity", icon: "/skills/solidity.png" },
     ]
@@ -33,16 +34,20 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "Flutter", icon: "/flutter.png" },
       { name: "SwiftUI", icon: "/swiftUi.png" },
+      { name: "Node.js", icon: "/skills/nodejs.svg" },
+      { name: "Express.js", icon: "/skills/express.svg" },
+      { name: "NestJS", icon: "/skills/nestjs.svg" },
+      { name: "BLoC", icon: "/skills/bloc.png" },
       { name: "Riverpod", icon: "/skills/riverpod.png" },
       { name: "GetX", icon: "/skills/getx.png" },
-      { name: "REST API", icon: "/skills/rest.png" },
     ]
   },
   {
     title: "Databases & Backend",
     skills: [
-      { name: "MySQL", icon: "/skills/mysql.png" },
+      { name: "MongoDB", icon: "/skills/mongodb.svg" },
       { name: "PostgreSQL", icon: "/icons/PostgresSQL.svg" },
+      { name: "MySQL", icon: "/skills/mysql.png" },
       { name: "Firebase", icon: "/firebase.png" },
       { name: "Supabase", icon: "/supabase.png" },
     ]
@@ -53,9 +58,11 @@ const skillCategories: SkillCategory[] = [
       { name: "Git", icon: "/skills/git-icon.svg" },
       { name: "GitHub", icon: "/skills/github-icon-1.svg" },
       { name: "Postman", icon: "/skills/postman.svg" },
-      { name: "Xcode", icon: "/icons/Xcode.svg" },
       { name: "VS Code", icon: "/skills/vscode.png" },
       { name: "Android Studio", icon: "/skills/androidStudio.png" },
+      { name: "Xcode", icon: "/icons/Xcode.svg" },
+      { name: "Cloudinary", icon: "/skills/cloudinary.svg" },
+      { name: "Razorpay", icon: "/skills/razorpay.svg" },
     ]
   },
 ];
