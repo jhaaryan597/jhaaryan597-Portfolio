@@ -14,8 +14,6 @@ interface SkillCategory {
 }
 
 const SkillsSection: React.FC = () => {
-  // Helper function to create path to icon - updated to use /skills/ directory
-  const iconPath = (name: string): string => `/skills/${name.toLowerCase().replace(/[.\s&+]/g, '')}.svg`;
 
 const skillCategories: SkillCategory[] = [
   {
@@ -23,7 +21,7 @@ const skillCategories: SkillCategory[] = [
     skills: [
       { name: "C++", icon: "/skills/c++.svg" },
       { name: "Dart", icon: "/skills/dart.png" },
-      { name: "JavaScript", icon: "/skills/javascript-2.svg" },
+      { name: "JavaScript", icon: "/JS.png" },
       { name: "SQL", icon: "/skills/sql.svg" },
       { name: "Swift", icon: "/swift.png" },
     ]
@@ -34,9 +32,9 @@ const skillCategories: SkillCategory[] = [
       { name: "Flutter", icon: "/flutter.png" },
       { name: "SwiftUI", icon: "/swiftUi.png" },
       { name: "Node.js", icon: "/skills/nodejs.svg" },
-      { name: "Express.js", icon: "/skills/express.svg" },
-      { name: "NestJS", icon: "/skills/nestjs.svg" },
-      { name: "BLoC", icon: "/skills/bloc.png" },
+      { name: "Express.js", icon: "/Expressjs.png" },
+      { name: "NestJS", icon: "/NestJS.svg" },
+      { name: "BLoC", icon: "/BLoc.png" },
       { name: "Riverpod", icon: "/skills/riverpod.png" },
     ]
   },
@@ -59,8 +57,8 @@ const skillCategories: SkillCategory[] = [
       { name: "VS Code", icon: "/skills/vscode.png" },
       { name: "Android Studio", icon: "/skills/androidStudio.png" },
       { name: "Xcode", icon: "/icons/Xcode.svg" },
-      { name: "Cloudinary", icon: "/skills/cloudinary.svg" },
-      { name: "Razorpay", icon: "/skills/razorpay.svg" },
+      { name: "Cloudinary", icon: "/Cloudinary.svg" },
+      { name: "Razorpay", icon: "/Razorpay_logo.svg" },
     ]
   },
 ];
