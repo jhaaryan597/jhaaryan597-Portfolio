@@ -26,7 +26,6 @@ const skillCategories: SkillCategory[] = [
       { name: "JavaScript", icon: "/skills/javascript-2.svg" },
       { name: "SQL", icon: "/skills/sql.svg" },
       { name: "Swift", icon: "/swift.png" },
-      { name: "Solidity", icon: "/skills/solidity.png" },
     ]
   },
   {
@@ -39,7 +38,6 @@ const skillCategories: SkillCategory[] = [
       { name: "NestJS", icon: "/skills/nestjs.svg" },
       { name: "BLoC", icon: "/skills/bloc.png" },
       { name: "Riverpod", icon: "/skills/riverpod.png" },
-      { name: "GetX", icon: "/skills/getx.png" },
     ]
   },
   {

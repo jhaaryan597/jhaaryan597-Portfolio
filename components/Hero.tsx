@@ -31,15 +31,15 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 md:max-w-[95%]">
-            Specializing in iOS & Flutter Development
+            Mobile Developer & Backend Developer
           </p>
           <TextGenerateEffect
-            words="Designing & Developing Seamless Mobile Experiences"
+            words="Designing & Developing Scalable Mobile & Backend Solutions"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Aryan Jha, an iOS & Flutter Developer creating high-quality, performance-driven mobile apps.
+            Hi! I&apos;m Aryan Jha, a Mobile & Backend Developer building high-quality, performance-driven apps and services.
           </p>
 
           <Link href="#Projects">

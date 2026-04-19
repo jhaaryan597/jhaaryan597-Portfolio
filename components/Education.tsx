@@ -23,8 +23,8 @@ const Education = () => {
             }}
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2 h-full">
-              <div className="lg:ms-5 flex flex-col w-full">
+            <div className="flex lg:flex-row flex-col lg:items-center p-6 md:p-8 lg:px-14 lg:py-10 gap-2 h-full">
+              <div className="flex flex-col w-full">
                 <div className="flex justify-between items-start">
                   <h1 className="text-start text-xl md:text-2xl font-bold">
                     {card.title}
